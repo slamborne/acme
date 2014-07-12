@@ -114,7 +114,7 @@ Component.prototype.createModuleFile = function(dirpath, name) {
       indexWriter = fs.createWriteStream(indexPath, {flags: 'r+', start: actualStart});
 
       var comment = '<!-- ' + self.name + '-->';
-      var script = Mustache.render('<script src="{{src}}"></script>\n', {src: modulePath});
+      var script = Mustache.render('<script src="{{src}}"></script>\n', {src: modulePath.replace(self.APP_PATH.concat(path.sep), '')});
       var outputString = '\n\n' +
         scriptTab + comment + '\n' +
         scriptTab + script + '\n' +
