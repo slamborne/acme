@@ -1,0 +1,26 @@
+{
+  "name": "angular-component-manager",
+  "version": "0.0.4",
+  "description": "simple node_module for managing components in angular-seed structured projects",
+  "main": "index.js",
+  "private": false,
+  "author": {
+    "name": "Shane Lamborne",
+    "email": "shanelamborne@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slamborne/angular-component-manager"
+  },
+  "dependencies": {
+    "mustache": "^0.8.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.29"
+  }
+}
