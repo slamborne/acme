@@ -1,8 +1,8 @@
 {
   "name": "angular-component-manager",
   "version": "0.0.4",
-  "description": "simple node_module for managing components in angular-seed structured projects",
-  "main": "index.js",
+  "description": "simple node_module for managing components in slamborne/angular-seed structured projects",
+  "main": "bin/acme.js",
   "private": false,
   "author": {
     "name": "Shane Lamborne",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/slamborne/angular-component-manager"
+    "url": "https://github.com/slamborne/acme"
   },
   "dependencies": {
     "mustache": "^0.8.x"
