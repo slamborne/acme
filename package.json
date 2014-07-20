@@ -1,7 +1,7 @@
 {
-  "name": "angular-component-manager",
-  "version": "0.0.4",
-  "description": "simple node_module for managing components in slamborne/angular-seed structured projects",
+  "name": "acme",
+  "version": "0.0.5",
+  "description": "angular component manager engine. a simple node_module for managing components in slamborne/angular-seed structured projects",
   "main": "bin/acme.js",
   "private": false,
   "author": {
